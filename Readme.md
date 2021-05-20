@@ -12,12 +12,12 @@ The Interventions Management Interface (IMI) combines basic case management func
 - [Pre-Requisites Overview](#project-architecture-and-pre-requisites)
 #### Full Interface Resources
 - [Interface Overview & Setup Instructions](#interface-overview-and-setup)
-- [Power BI Template File](Template%20-%20Interventions%20Management%20Interface.pbit)
-- [PowerApps Solution File](PowerAppSolution%20\(Unmanaged\).zip)
+- [Power BI Template File](https://github.com/Ed-Fi-Exchange-OSS/Pupils-Personnel-Teams-Dashboard/raw/main/Template%20-%20Interventions%20Management%20Interface.pbit)
+- [PowerApps Solution File](https://github.com/Ed-Fi-Exchange-OSS/Pupils-Personnel-Teams-Dashboard/raw/main/PowerAppSolution%20(Unmanaged).zip)
 - [User Instructions]
 #### Report-Only Interface Resources (No PowerApps Subscription Required)
 - [Report-Only Dashboard Overview](#report-only-dashboard-overview-and-setup)
-- [Report-Only Power BI Template File](PPT%20Interface%20-%20Template%20-%20Parameter%20Updates%20%20\(Report%20Only\).pbit)
+- [Report-Only Power BI Template File](https://github.com/Ed-Fi-Exchange-OSS/Pupils-Personnel-Teams-Dashboard/raw/main/PPT%20Interface%20-%20Template%20-%20Parameter%20Updates%20%20(Report%20Only).pbit)
 - [Report-Only Setup Instructions (Video)](https://github.com/shoover-nasd/ed-fi-interventions-management-interface/raw/main/Report-Only%20Setup%20Instructions.mp4)
 - [Report-Only User Instructions]
 
@@ -36,7 +36,7 @@ An anticipated near-term update to the tool will include an academics drillthrou
 ### Interface Overview and Setup
 The "out-of-box" interface is presented as a Power BI report which connects to the user district's Ed-Fi ODS and PowerApps environment and offers the features described in [the previous section](#long-description). User districts with the pre-requisites fulfilled (i.e. Power BI, PowerApps/Dataverse licensing, Ed-Fi ODS) can follow the instructions below to deploy the Interventions Management Interface to their environment.
 
-1. [Download the PowerApps Solution File](PowerAppSolution%20\(Unmanaged\).zip)
+1. [Download the PowerApps Solution File](https://github.com/Ed-Fi-Exchange-OSS/Pupils-Personnel-Teams-Dashboard/raw/main/PowerAppSolution%20(Unmanaged).zip)
 2. [Download the sample intervention types list](sampleInterventionTypes.txt). If desired, you can clear all rows in the file (except headers) and enter the list of intervention options you want to make available to your users. 
 3. Sign into [the PowerApps portal](https://powerapps.microsoft.com/) and navigate to the "Solutions" page using the left-hand menu.
 4. Choose "Import solution" from the menu in the top ribbon. Upload the solution file you downloaded to your computer in step 1.
@@ -49,7 +49,7 @@ The "out-of-box" interface is presented as a Power BI report which connects to t
    - Use the Source field drop-down menus to map each field to the field with a corresponding name in the destination table (or click the "Auto map" button in the top-right corner) and click "Next". 
    - Select "Refresh manually" from the Refresh Settings page unless you plan to update and sync intervention options from the same file (not supported through these instructions but certainly an option). 
    - Click "create" to load the data into your solution environment.
-8. [Download the Power BI template file](Template - Interventions Management Interface.pbit) and open it on your desktop.
+8. [Download the Power BI template file](https://github.com/Ed-Fi-Exchange-OSS/Pupils-Personnel-Teams-Dashboard/raw/main/Template%20-%20Interventions%20Management%20Interface.pbit) and open it on your desktop.
 9. Enter the connection string parameters as prompted. The first should be the server name where your ODS is hosted. The second should be the ODS database you wish to connect to. The third should be your PowerApps environment URL (you can find this in the PowerApps admin center).
 10. Delete the PowerApps visual in the center of the screen. Replace it by inserting a new, blank PowerApps visual from the visualizations menu on the right-hand side.
 11. Click the new PowerApps visual, and, before clicking anywhere else on the visual, add the following data fields (listed here as TableName>>FieldName) **in this order**: DimStudent>>FullName, DimStudent>>Grade, DimStudent>>PPTReferral, DimStudent>>StudentUSI, DimPPTCase>>cr59c_caseid, DimPPTCase>>casestatus, DimPPTCase>>casestatus_display, DimPPTCase>>cr59c_ppt_caseid, DimPPTCase>>modifiedon, DimPPTCase>>PPTStatus, DimPPTCase>>ReferralDate, DimPPTReferralReason>>AllReferralDomains. **Click the drop-down for each field to ensure "Don't Summarize" (rather than any aggregation option, like "sum", etc.) is selected, if available. On the drop-down for DimPPTCase>>cr59c_caseid, ensure "Show items with no data" is selected.** 
@@ -70,7 +70,7 @@ The "out-of-box" interface is presented as a Power BI report which connects to t
 Districts without a full PowerApps & Dataverse (formerly Microsoft Common Data Service) subscription can take advantage of a pared-down version of the interface. This "report-only" interface includes all report pages from the full version which do not depend on the interventions management application component. Currently, this includes student-level attendance data, student-level assessment data, and an all-student assessment results explorer page. North Allegheny staff plan to continue updates to the available report pages as the district's Ed-Fi Implementation progresses to include more data domains.
 
 Click the links below to...
-- [Download the Report-Only Power BI Template File](PPT%20Interface%20-%20Template%20-%20Parameter%20Updates%20%20\(Report%20Only\).pbit)
+- [Download the Report-Only Power BI Template File](https://github.com/Ed-Fi-Exchange-OSS/Pupils-Personnel-Teams-Dashboard/raw/main/PPT%20Interface%20-%20Template%20-%20Parameter%20Updates%20%20(Report%20Only).pbit)
 - [View Setup Instructions](https://github.com/shoover-nasd/ed-fi-interventions-management-interface/raw/main/Report-Only%20Setup%20Instructions.mp4)
 - [View User Instructions]
 
