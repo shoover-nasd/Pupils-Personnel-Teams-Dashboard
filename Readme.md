@@ -10,6 +10,7 @@ The Interventions Management Interface (IMI) combines basic case management func
 - [Project Description (short)](#short-description)
 - [Project Description (long)](#long-description)
 - [Pre-Requisites Overview](#project-architecture-and-pre-requisites)
+- [Pre-Requisites Installation](https://github.com/shoover-nasd/Pupils-Personnel-Teams-Dashboard/blob/patch-2/prerrequisites.md)
 #### Full Interface Resources
 - [Interface Overview & Setup Instructions](#interface-overview-and-setup)
 - [Power BI Template File](https://github.com/Ed-Fi-Exchange-OSS/Pupils-Personnel-Teams-Dashboard/raw/main/Template%20-%20Interventions%20Management%20Interface.pbit)
