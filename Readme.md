@@ -32,7 +32,7 @@ An anticipated near-term update to the tool will include an academics drillthrou
 
 ### Project Architecture and Pre-requisites
 
-![Overview Diagram](Pre-Requisites Diagram.png)
+![Overview Diagram](https://github.com/Ed-Fi-Exchange-OSS/Pupils-Personnel-Teams-Dashboard/blob/main/Pre-Requisites%20Diagram.png)
 
 ### Interface Overview and Setup
 The "out-of-box" interface is presented as a Power BI report which connects to the user district's Ed-Fi ODS and PowerApps environment and offers the features described in [the previous section](#long-description). User districts with the pre-requisites fulfilled (i.e. Power BI, PowerApps/Dataverse licensing, Ed-Fi ODS) can follow the instructions below to deploy the Interventions Management Interface to their environment.
