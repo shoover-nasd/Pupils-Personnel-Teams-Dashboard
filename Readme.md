@@ -15,12 +15,12 @@ The Interventions Management Interface (IMI) combines basic case management func
 - [Interface Overview & Setup Instructions](#interface-overview-and-setup)
 - [Power BI Template File](https://github.com/Ed-Fi-Exchange-OSS/Pupils-Personnel-Teams-Dashboard/raw/main/Template%20-%20Interventions%20Management%20Interface.pbit)
 - [PowerApps Solution File](https://github.com/Ed-Fi-Exchange-OSS/Pupils-Personnel-Teams-Dashboard/raw/main/PowerAppSolution%20(Unmanaged).zip)
-- [User Instructions]
+- [User Instructions](https://github.com/Ed-Fi-Exchange-OSS/Pupils-Personnel-Teams-Dashboard/blob/main/usermanual.md)
 #### Report-Only Interface Resources (No PowerApps Subscription Required)
 - [Report-Only Dashboard Overview](#report-only-dashboard-overview-and-setup)
 - [Report-Only Power BI Template File](https://github.com/Ed-Fi-Exchange-OSS/Pupils-Personnel-Teams-Dashboard/raw/main/PPT%20Interface%20-%20Template%20-%20Parameter%20Updates%20%20(Report%20Only).pbit)
 - [Report-Only Setup Instructions (Video)](https://github.com/shoover-nasd/ed-fi-interventions-management-interface/raw/main/Report-Only%20Setup%20Instructions.mp4)
-- [Report-Only User Instructions]
+- [Report-Only User Instructions](https://github.com/Ed-Fi-Exchange-OSS/Pupils-Personnel-Teams-Dashboard/blob/main/usermanual.md)
 
 
 ### Long Description
@@ -73,7 +73,7 @@ Districts without a full PowerApps & Dataverse (formerly Microsoft Common Data S
 Click the links below to...
 - [Download the Report-Only Power BI Template File](https://github.com/Ed-Fi-Exchange-OSS/Pupils-Personnel-Teams-Dashboard/raw/main/PPT%20Interface%20-%20Template%20-%20Parameter%20Updates%20%20(Report%20Only).pbit)
 - [View Setup Instructions](https://github.com/shoover-nasd/ed-fi-interventions-management-interface/raw/main/Report-Only%20Setup%20Instructions.mp4)
-- [View User Instructions]
+- [View User Instructions](https://github.com/Ed-Fi-Exchange-OSS/Pupils-Personnel-Teams-Dashboard/blob/main/usermanual.md)
 
 ## Legal Information
 
